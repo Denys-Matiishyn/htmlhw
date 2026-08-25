@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+section{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.top{
+  background-color: blueviolet;
+}
+.middle1{
+  background-color: orange;
+}
+.middle2{
+  background-color: green;
+}
+.down{
+  background-color: yellow;
+}
+nav a {
+  color: #000000; /* Вкажіть бажаний колір (тут чорний) */
+  text-decoration: none; /* Прибирає підкреслення */
+}
+section p{
+  width: 80%;
+}
